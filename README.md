@@ -40,15 +40,23 @@ myproject/
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
-└── food/
-    ├── __init__.py
-    ├── admin.py
-    ├── apps.py
-    ├── models.py
-    ├── tests.py
-    ├── views.py
-    └── migrations/
-        └── __init__.py
+├── food/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── views.py
+│   └── templates/
+│       └── food/
+│           └── index.html
+└── static/
+    ├── images/
+    │   └── example.jpg
+    ├── css/
+    │   └── styles.css
+    └── js/
+        └── scripts.js
 ```
 
 - manage.py: Django 프로젝트를 관리하는 커맨드라인 유틸리티입니다. 서버를 실행하거나, 데이터베이스 마이그레이션을 수행하는 등 다양한 작업을 수행할 수 있습니다.
